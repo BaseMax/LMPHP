@@ -28,4 +28,4 @@ $langs -> word_add("HowAre");
 $langs -> word_add("HowAre","How are you?");//update a word!
 print_r( $langs -> words );
 
-echo $langs -> word_get("Bye");
+echo $langs -> word_get("Bye");//It should get word from active language(fa) , but this is not exists. so will get value from en.
