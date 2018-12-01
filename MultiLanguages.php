@@ -21,3 +21,11 @@ class MultiLanguages
 			else{}//#soon #error
 		}
 	}
+	function language_exists($key)
+	{
+		return isset($this->languages[$key]) ? true : false;
+	}
+	function language_current()
+	{
+		return $this->language;
+	}
