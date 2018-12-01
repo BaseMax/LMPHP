@@ -115,3 +115,4 @@ class MultiLanguages
 		else{}//#soon #error
 		return false;
 	}
+}
