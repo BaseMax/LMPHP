@@ -82,3 +82,36 @@ class MultiLanguages
 		else{}//#soon #error
 		return false;
 	}
+	function word_add($name,$value=null)
+	{
+		if($this->language_current() != null)
+		{
+			return $this->word_add_to($this->language_current(),$name,$value);
+		}
+		else{}//#soon #error
+		return false;
+	}
+	function word_get($name)
+	{
+		if($this->language_current() != null)
+		{
+			if(isset($this->words[ $this->language_current() ][$name]))
+			{
+				return $this->words[ $this->language_current() ][$name];
+			}
+			else
+			{
+				//Only check language_default? or all?
+				foreach($this->words as $lang)
+				{
+					if(isset($lang[$name]))
+					{
+						return $lang[$name];
+					}
+				}
+				return false;
+			}
+		}
+		else{}//#soon #error
+		return false;
+	}
