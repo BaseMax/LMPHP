@@ -30,6 +30,7 @@ class MultiLanguages
 			}
 			else{}//#soon #error
 		}
+		return false;
 	}
 	function language_exists($key)
 	{
@@ -44,24 +45,30 @@ class MultiLanguages
 		if($this->language_exists($key))
 		{
 			$this->language_default = $key;
+			return true;
 		}
 		else{}//#soon #error
+		return false;
 	}
 	function language_active($key)
 	{
 		if($this->language_exists($key))
 		{
 			$this->language = $key;
+			return true;
 		}
 		else{}//#soon #error
+		return false;
 	}
 	function language_remove($key)
 	{
 		if($this->language_exists($key))
 		{
 			unset($this->languages[$key]);
+			return true;
 		}
 		else{}//#soon #error
+		return false;
 	}
 	function language_add($key,$name=null)
 	{
@@ -72,10 +79,12 @@ class MultiLanguages
 		if(! $this->language_exists($key))
 		{
 			$this->languages[$key]=$name;
+			$this->language_active($key);
+			$this->words[$key]=[];
+			return true;
 		}
 		else{}//#soon #error
-		$this->language_active($key);
-		$this->words[$key]=[];
+		return false;
 	}
 	///////////////////////////////////////////////
 	function word_add_to($lang,$name,$value=null)
