@@ -14,7 +14,7 @@ Multi-language management and support on the site.
 | Function Name  | Goal | Parameters | Return |
 | ------------- | ------------- | ------------- | ------------- |
 | word_add  	| Add a word to active language. | $name(name of the word) , __Optional__ : $value(value of the word) | Bool |
-| word_get  |  Get a word from active language. | $name(name of the word) |  |
+| word_get  |  Get a word from active language. | $name(name of the word) | The value of word. |
 |  word_add_to | Add a word to custom language. | $lang(language name) , $name(name of the word) , __Optional__ : $value(value of the word) | Bool |
 |  language_add | Add a new language. | $key(language name) | Bool |
 |  language_remove | Remove a language. | $key(language name) | Bool |
