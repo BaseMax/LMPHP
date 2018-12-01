@@ -1,4 +1,14 @@
 <?php
+/**
+*
+* @Name : MultiLanguages.php
+* @Version : 1.0
+* @Programmer : Max
+* @Date : 2018-12-01
+* @Released under : https://github.com/BaseMax/MultiLanguagesPHP/blob/master/LICENSE
+* @Repository : https://github.com/BaseMax/MultiLanguagesPHP
+*
+**/
 class MultiLanguages
 {
 	public $languages = [];
