@@ -53,3 +53,32 @@ class MultiLanguages
 		}
 		else{}//#soon #error
 	}
+	function language_add($key,$name=null)
+	{
+		if($name == null)
+		{
+			$name = $key;
+		}
+		if(! $this->language_exists($key))
+		{
+			$this->languages[$key]=$name;
+		}
+		else{}//#soon #error
+		$this->language_active($key);
+		$this->words[$key]=[];
+	}
+	///////////////////////////////////////////////
+	function word_add_to($lang,$name,$value=null)
+	{
+		if($value == null)
+		{
+			$value = $name;
+		}
+		if(isset($this->words[$lang]))
+		{
+			$this->words[$lang][$name]=$value;
+			return true;
+		}
+		else{}//#soon #error
+		return false;
+	}
