@@ -29,3 +29,27 @@ class MultiLanguages
 	{
 		return $this->language;
 	}
+	function language_default($key)
+	{
+		if($this->language_exists($key))
+		{
+			$this->language_default = $key;
+		}
+		else{}//#soon #error
+	}
+	function language_active($key)
+	{
+		if($this->language_exists($key))
+		{
+			$this->language = $key;
+		}
+		else{}//#soon #error
+	}
+	function language_remove($key)
+	{
+		if($this->language_exists($key))
+		{
+			unset($this->languages[$key]);
+		}
+		else{}//#soon #error
+	}
