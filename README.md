@@ -11,7 +11,7 @@ Multi-language management and support on the site.
 
 ## Functions
 
-| Function Name  | Goal | Parameters | Return |
+| Function Name  | Goal | Parameter(s) | Return |
 | ------------- | ------------- | ------------- | ------------- |
 | word_add  	| Add a word to active language. | $name(name of the word) , __Optional__ : $value(value of the word) | Bool |
 | word_get  |  Get a word from active language. | $name(name of the word) | The value of word. |
