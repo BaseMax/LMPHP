@@ -1,5 +1,5 @@
 # Multi Languages PHP
-Multi-language management and support on the php.
+Multi-language management and support on the php (web).
 
 
 ## Features 
