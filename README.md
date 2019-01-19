@@ -1,13 +1,11 @@
-# Multi Languages PHP
+# Multi Language PHP
 Multi-language management and support on the php (web).
-
 
 ## Features 
 
   - Easy
   - Compact
   - Useful
-
 
 ## Functions
 
@@ -23,3 +21,12 @@ Multi-language management and support on the php (web).
 | language_exists  | Check a language is exists or not.  | $key (language name)  | Bool |
 | language  |  Get list of the languages or list of the words of a language. | __Optional__ : $filter(language name)  | Array |
 
+## Introduction
+
+This library is simple and lightweight and can be used for language management.
+
+This project started to be used for personal use.
+At the very beginning, the project was used in the infrastructure of the servers of a project in India.
+To be able to manage language and vocabulary more easily. (International projects)
+
+With my decision, this project was put up for free.
