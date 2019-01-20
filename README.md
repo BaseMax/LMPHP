@@ -1,13 +1,15 @@
-# Multi Language PHP
+# LM PHP (Language management PHP)
+
+## Multi Language PHP
 Multi-language management and support on the php (web).
 
-## Features 
+## LMPHP Features 
 
   - Easy
   - Compact
   - Useful
 
-## Functions
+## LM-PHP Functions
 
 | Function Name  | Goal | Parameter(s) | Return |
 | ------------- | ------------- | ------------- | ------------- |
@@ -24,6 +26,7 @@ Multi-language management and support on the php (web).
 ## Introduction
 
 This library is simple and lightweight and can be used for language management.
+**It called LM-PHP(LMPHP).**
 
 This project started to be used for personal use.
 At the very beginning, the project was used in the infrastructure of the servers of a project in India.
