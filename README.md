@@ -33,3 +33,18 @@ At the very beginning, the project was used in the infrastructure of the servers
 To be able to manage language and vocabulary more easily. (International projects)
 
 With my decision, this project was put up for free.
+
+## History
+
+| Version Num | Date Begin | Date Finish |
+| ----------- | ---------- | ----------- |
+| 0.1 (first) | 2018 | 2018-12-01 |
+| 1.0 | 2018-12-01 | 2019-01-22 |
+| 1.1 | 2019-01-22 | - |
+
+
+
+
+# License
+
+LMPHP is licensed under the [GNU General Public License](https://github.com/BaseMax/LMPHP/blob/master/LICENSE).
