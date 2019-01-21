@@ -1,15 +1,15 @@
 <?php
 /**
 *
-* @Name : MultiLanguages.php
-* @Version : 1.0
+* @Name : LMPHP.php
+* @Version : 1.1
 * @Programmer : Max
 * @Date : 2018-12-01
-* @Released under : https://github.com/BaseMax/MultiLanguagesPHP/blob/master/LICENSE
-* @Repository : https://github.com/BaseMax/MultiLanguagesPHP
+* @Released under : https://github.com/BaseMax/LMPHP/blob/master/LICENSE
+* @Repository : https://github.com/BaseMax/LMPHP
 *
 **/
-class MultiLanguages
+class LMPHP
 {
 	public $languages = [];
 	public $language = null;
