@@ -1,6 +1,6 @@
 {
 
-    "name": "BaseMax/LMPHP",
+    "name": "basemax/lmphp",
     "type": "library",
     "description": "LM PHP (Language management PHP) is a library for language management and multi-language support in the PHP-based application backends.",
     "keywords": ["language management","multi-language","multi-language support"],
