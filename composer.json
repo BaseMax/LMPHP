@@ -5,7 +5,7 @@
     "description": "LM PHP (Language management PHP) is a library for language management and multi-language support in the PHP-based application backends.",
     "keywords": ["language management","multi-language","multi-language support"],
     "homepage": "https://github.com/BaseMax/LMPHP",
-    "license": "GNU",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Max Base",
