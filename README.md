@@ -42,9 +42,6 @@ With my decision, this project was put up for free.
 | 1.0 | 2018-12-01 | 2019-01-22 |
 | 1.1 | 2019-01-22 | - |
 
-
-
-
 # License
 
 LMPHP is licensed under the [GNU General Public License](https://github.com/BaseMax/LMPHP/blob/master/LICENSE).
