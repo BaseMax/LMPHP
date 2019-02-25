@@ -5,9 +5,9 @@ Multi-language management and support on the php (web).
 
 ## LMPHP Features 
 
-  - Easy
-  - Compact
-  - Useful
+- Easy
+- Compact
+- Useful
 
 ## LM-PHP Functions
 
