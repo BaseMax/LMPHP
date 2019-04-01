@@ -37,11 +37,9 @@ With my decision, this project was put up for free.
 
 ## History
 
-| Version Num | Date Begin | Date Finish |
-| ----------- | ---------- | ----------- |
-| 0.1 (first) | 2018 | 2018-12-01 |
-| 1.0 | 2018-12-01 | 2019-01-22 |
-| 1.1 | 2019-01-22 | - |
+- **0.1 (first)** : 2018 - 2018-12-01
+- **1.0** : 2018-12-01 - 2019-01-22
+- **1.1** : 2019-01-22
 
 # License
 
