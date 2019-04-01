@@ -12,17 +12,93 @@ Multi-language management and support on the php (web).
 
 ## LM-PHP Functions
 
-| Function Name  | Goal | Parameter(s) | Return |
-| ------------- | ------------- | ------------- | ------------- |
-| word_add  	| Add a word to active language. | $name(name of the word) , __Optional__ : $value(value of the word) | Bool |
-| word_get  |  Get a word from active language. | $name(name of the word) | The value of word. |
-|  word_add_to | Add a word to custom language. | $lang(language name) , $name(name of the word) , __Optional__ : $value(value of the word) | Bool |
-|  language_add | Add a new language. | $key(language name) | Bool |
-|  language_remove | Remove a language. | $key(language name) | Bool |
-| language_active  |  Activate a language. |  $key(language name) | Bool |
-| language_current  | Get current active language. |  | Name of the active language. |
-| language_exists  | Check a language is exists or not.  | $key (language name)  | Bool |
-| language  |  Get list of the languages or list of the words of a language. | __Optional__ : $filter(language name)  | Array |
+### **word_add**
+Add a word to active language.
+
+**Return :**
+Bool
+
+**Parameters :**
+- $name(name of the word)
+- __Optional__, $value(value of the word)
+
+### word_get
+Get a word from active language.
+
+**Return :**
+The value of word.
+
+**Parameters :**
+- $name(name of the word)
+
+### word_add_to
+Add a word to custom language.
+
+**Return :**
+Bool
+
+**Parameters :**
+- $lang(language name)
+- $name(name of the word)
+- __Optional__, $value(value of the word)
+
+### language_add
+Add a new language.
+
+**Return :**
+Bool
+
+**Parameters :**
+- $key(language name)
+
+### language_remove
+Remove a language. 
+
+**Return :**
+Bool
+
+**Parameters :**
+- $key(language name)
+
+### language_active
+
+Activate a language.
+
+**Return :**
+Bool
+
+**Parameters :**
+- $key(language name)
+
+### language_current
+
+Get current active language.
+
+**Return :**
+Name of the active language.
+
+**Parameters :**
+None
+
+### language_exists
+
+Check a language is exists or not.
+
+**Return :**
+Bool
+
+**Parameters :**
+- $key (language name)
+
+### language
+
+Get list of the languages or list of the words of a language.
+
+**Return :**
+Array
+
+**Parameters :**
+- __Optional__, $filter(language name)
 
 ## Introduction
 
@@ -37,9 +113,9 @@ With my decision, this project was put up for free.
 
 ## History
 
-- **0.1 (first)** : 2018 - 2018-12-01
-- **1.0** : 2018-12-01 - 2019-01-22
-- **1.1** : 2019-01-22
+- **Version 0.1 (first)** : 2018 - 2018-12-01
+- **Version 1.0** : 2018-12-01 - 2019-01-22
+- **Version 1.1** : 2019-01-22
 
 # License
 
